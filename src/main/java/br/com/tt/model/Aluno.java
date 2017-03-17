@@ -1,27 +1,35 @@
 package br.com.tt.model;
 
 public class Aluno {
-	private String nome;
-	private String cpf;
+  private String nome;
+  private String cpf;
 
-	public String getNome() {
-		return nome;
-	}
+  /**
+   * @Classe aluno modelo
+   */
 
-	public void setNome(String nome) {
-		this.nome = nome;
-	}
+  public Aluno() {
+    super();
+  }
 
-	public String getCpf() {
-		return cpf;
-	}
+  public String getNome() {
+    return nome;
+  }
 
-	public void setCpf(String cpf) {
-		this.cpf = cpf;
-	}
+  public void setNome(final String nome) {
+    this.nome = nome;
+  }
 
-	public void salvar() {
-	
-	}
+  public String getCpf() {
+    return cpf;
+  }
+
+  public void setCpf(final String cpf) {
+    this.cpf = cpf;
+  }
+
+  public void salvar() {
+
+  }
 
 }
